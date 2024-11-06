@@ -1,5 +1,5 @@
 #include <iostream>
-#include "libspectra.h"
+#include "../include/libspectra.h"
 
 class TestClass {
 public:

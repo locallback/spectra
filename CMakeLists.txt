@@ -3,7 +3,7 @@ project(Spectra)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(Spectra STATIC libspectra.cpp)
+add_library(Spectra STATIC src/libspectra.cpp)
 
-add_executable(SpectraTest test.cpp)
+add_executable(SpectraTest src/test.cpp)
 target_link_libraries(SpectraTest PRIVATE Spectra)

@@ -1,4 +1,4 @@
-#include "libspectra.h"
+#include "../include/libspectra.h"
 
 std::unordered_map<std::string, Spectra::FuncType>& Spectra::getFunctionMap() {
     static std::unordered_map<std::string, FuncType> functionMap;
